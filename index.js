@@ -1,9 +1,16 @@
 function isPalindrome(word) {
+  const reverseWord = word.split("").reverse().join("")
+  if (word === reverseWord) {
+    return true
+  }
+  return false
   // Write your algorithm here
 }
 
 /* 
-  Add your pseudocode here
+  function that takes a word
+  word is compared against its reverse
+  matching is palindrome and not is not
 */
 
 /*
